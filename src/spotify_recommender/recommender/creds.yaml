@@ -1,0 +1,3 @@
+clientID: fcf22dabc9fd461cb0061d412f1e7e65
+clientSecret: 7c91f84b6e454a7eb45afa64495a4e78
+redirectURI: http://localhost:8000/api/callback/

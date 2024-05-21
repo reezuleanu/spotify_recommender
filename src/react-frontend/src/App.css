@@ -1,0 +1,165 @@
+.song{
+  margin-top:20px;
+}
+
+.recommend-options select{
+  height: 5vh;
+  width: 20vw;
+}
+
+.recommend-options input{
+  height:2vh;
+  width:2vw;
+  margin: 10px;
+}
+
+.btn-like{
+  height:5vh;
+  width:9vw;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  color:White;
+  background-color: #1db954;
+}
+
+.btn-like:disabled{
+  background-color: gray;
+}
+
+.btn-dislike:disabled{
+  background-color: gray;
+}
+
+.btn-dislike{
+  height:5vh;
+  width:9vw;
+  border: none;
+  border-radius: 10px;
+  color:white;
+  background-color: red;
+}
+
+.submit{
+  color: white;
+  font-size: 1.5vmin;
+  background-color: #1db954;
+  border-radius: 10px;
+  border: None;
+  height:5vh;
+  width: 13vw;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.refresh_behavior{
+  background-color: grey;
+  color: white;
+  font-size: 1.5vmin;
+  border-radius: 10px;
+  border: None;
+  height:5vh;
+  width:13vw;
+  padding: 10px;
+}
+
+.app-container{
+  background-color: #191414;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.app-container header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 1px;
+}
+
+.app-container h4{
+  display: flex;
+  align-items: center;
+}
+
+
+.spotify-logo{
+  height: 40px;
+  width: 40px;
+  margin:5px;
+  vertical-align: center;
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+.accountInfo img{
+  vertical-align: middle;
+  padding: 10px;
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
+  border-color: bold #282c34;
+}
+
+.accountInfo text{
+  font-size: 3vmin;
+}
+
+footer{
+  color: white;
+  /* font-size: calc(10px + 2vmin); */
+  padding-bottom: 2vmin;
+  padding-top: 10vh;
+  font-size: 2vmin;
+  padding-left: 4vmin;
+  padding-right: 4vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.spinner {
+  animation-name: spin;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
