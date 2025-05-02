@@ -53,7 +53,6 @@ const Recommender = (props) => {
         </header>
         <AccountInfo image = {image} displayname = {displayname} />
         <RecommendOptions/>
-        <footer>Un proiect facut de Armand Agapi, Caloianu Valentin, Cozma Andrei-Lucian si Ivan Alexandru</footer>
     </div>
   )
 }
