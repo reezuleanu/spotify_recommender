@@ -1,2 +1,2 @@
-# spotify_recommender
-Model in pytorch care recomanda melodii pe Spotify
+# Spotify Recommender
+Simple Fullstack app (Python + React) that implements a model trained using pytorch to recommend songs based on a user's liked songs on Spotify.
